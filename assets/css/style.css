@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #2F1893;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-prop {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.w100 {
+    width: 100%;
+}
+
+
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.title {
+    font-family: DM Sans;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.article {
+
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #C1BADF;
+    margin-top: 29.2px;
+    margin-bottom: 28px;
+    text-align: center;
+    max-width: 702px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.card{
+height: 160px;
+border: 2px solid #4E3BA3;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 30px;
+}
