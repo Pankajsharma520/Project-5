@@ -9,7 +9,7 @@
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -52,8 +52,8 @@ section {
 
 .col-3 {
     width: 25%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .title {
@@ -90,4 +90,37 @@ section {
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    margin-left: 6px;
+}
+
+/* ===================================Responsive code==================================== */
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+@media (min-width:576px) {
+    .col-sm-6{
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:768px) {
+    .col-md-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:992px) {
+    .col-lg-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
